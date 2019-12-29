@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7C72061AB37A4953CF3393D8 /* libPods-XYIGListDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B409755BD01C8ABA8589C824 /* libPods-XYIGListDemo.a */; };
 		85188B4423B8883F0026AFE7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 85188B4323B8883F0026AFE7 /* AppDelegate.m */; };
 		85188B4723B888400026AFE7 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 85188B4623B888400026AFE7 /* SceneDelegate.m */; };
 		85188B4A23B888400026AFE7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85188B4923B888400026AFE7 /* ViewController.m */; };
@@ -14,9 +15,12 @@
 		85188B4F23B888410026AFE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85188B4E23B888410026AFE7 /* Assets.xcassets */; };
 		85188B5223B888410026AFE7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85188B5023B888410026AFE7 /* LaunchScreen.storyboard */; };
 		85188B5523B888410026AFE7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 85188B5423B888410026AFE7 /* main.m */; };
+		85188B5D23B89BFA0026AFE7 /* XYSectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85188B5C23B89BFA0026AFE7 /* XYSectionController.m */; };
+		85188B6023B8A2630026AFE7 /* LabelCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 85188B5F23B8A2630026AFE7 /* LabelCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		35D8F4A18A27CEA0FCCB6DC2 /* Pods-XYIGListDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XYIGListDemo.debug.xcconfig"; path = "Target Support Files/Pods-XYIGListDemo/Pods-XYIGListDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		85188B3F23B8883F0026AFE7 /* XYIGListDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XYIGListDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		85188B4223B8883F0026AFE7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		85188B4323B8883F0026AFE7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -29,6 +33,12 @@
 		85188B5123B888410026AFE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		85188B5323B888410026AFE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		85188B5423B888410026AFE7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		85188B5B23B89BFA0026AFE7 /* XYSectionController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XYSectionController.h; sourceTree = "<group>"; };
+		85188B5C23B89BFA0026AFE7 /* XYSectionController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYSectionController.m; sourceTree = "<group>"; };
+		85188B5E23B8A2630026AFE7 /* LabelCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LabelCell.h; sourceTree = "<group>"; };
+		85188B5F23B8A2630026AFE7 /* LabelCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LabelCell.m; sourceTree = "<group>"; };
+		B409755BD01C8ABA8589C824 /* libPods-XYIGListDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XYIGListDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5F9C65378BD4EAF313B33FF /* Pods-XYIGListDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XYIGListDemo.release.xcconfig"; path = "Target Support Files/Pods-XYIGListDemo/Pods-XYIGListDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,17 +46,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C72061AB37A4953CF3393D8 /* libPods-XYIGListDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		36C822D8F975B4846F5F58B4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B409755BD01C8ABA8589C824 /* libPods-XYIGListDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		85188B3623B8883F0026AFE7 = {
 			isa = PBXGroup;
 			children = (
 				85188B4123B8883F0026AFE7 /* XYIGListDemo */,
 				85188B4023B8883F0026AFE7 /* Products */,
+				B35A4379696ACDDE6654E9E8 /* Pods */,
+				36C822D8F975B4846F5F58B4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,13 +88,26 @@
 				85188B4623B888400026AFE7 /* SceneDelegate.m */,
 				85188B4823B888400026AFE7 /* ViewController.h */,
 				85188B4923B888400026AFE7 /* ViewController.m */,
+				85188B5B23B89BFA0026AFE7 /* XYSectionController.h */,
+				85188B5C23B89BFA0026AFE7 /* XYSectionController.m */,
 				85188B4B23B888400026AFE7 /* Main.storyboard */,
 				85188B4E23B888410026AFE7 /* Assets.xcassets */,
 				85188B5023B888410026AFE7 /* LaunchScreen.storyboard */,
 				85188B5323B888410026AFE7 /* Info.plist */,
 				85188B5423B888410026AFE7 /* main.m */,
+				85188B5E23B8A2630026AFE7 /* LabelCell.h */,
+				85188B5F23B8A2630026AFE7 /* LabelCell.m */,
 			);
 			path = XYIGListDemo;
+			sourceTree = "<group>";
+		};
+		B35A4379696ACDDE6654E9E8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				35D8F4A18A27CEA0FCCB6DC2 /* Pods-XYIGListDemo.debug.xcconfig */,
+				C5F9C65378BD4EAF313B33FF /* Pods-XYIGListDemo.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +117,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 85188B5823B888410026AFE7 /* Build configuration list for PBXNativeTarget "XYIGListDemo" */;
 			buildPhases = (
+				28141F7AD0D5C73D614C5424 /* [CP] Check Pods Manifest.lock */,
 				85188B3B23B8883F0026AFE7 /* Sources */,
 				85188B3C23B8883F0026AFE7 /* Frameworks */,
 				85188B3D23B8883F0026AFE7 /* Resources */,
@@ -141,6 +176,31 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		28141F7AD0D5C73D614C5424 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XYIGListDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		85188B3B23B8883F0026AFE7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -148,7 +208,9 @@
 			files = (
 				85188B4A23B888400026AFE7 /* ViewController.m in Sources */,
 				85188B4423B8883F0026AFE7 /* AppDelegate.m in Sources */,
+				85188B6023B8A2630026AFE7 /* LabelCell.m in Sources */,
 				85188B5523B888410026AFE7 /* main.m in Sources */,
+				85188B5D23B89BFA0026AFE7 /* XYSectionController.m in Sources */,
 				85188B4723B888400026AFE7 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,6 +349,7 @@
 		};
 		85188B5923B888410026AFE7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35D8F4A18A27CEA0FCCB6DC2 /* Pods-XYIGListDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -304,6 +367,7 @@
 		};
 		85188B5A23B888410026AFE7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5F9C65378BD4EAF313B33FF /* Pods-XYIGListDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
