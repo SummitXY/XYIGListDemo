@@ -4,6 +4,7 @@
 target 'XYIGListDemo' do
   # Comment the next line if you don't want to use dynamic frameworks
   pod 'IGListKit'
+  pod 'XYMobileRuntime',:git => 'https://github.com/SummitXY/XYMobileRuntime',:branch => 'master'
   # Pods for XYIGListDemo
 
 end

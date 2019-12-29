@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import <IGListKit.h>
 #import "XYSectionController.h"
+#import "XYContext.h"
 
 @interface ViewController () <IGListAdapterDataSource>
 
@@ -26,6 +27,8 @@
     [self.view addSubview:self.collectionView];
     self.adapter.collectionView = self.collectionView;
     self.adapter.dataSource = self;
+
+    NSLog(@"class name:%@",[XYContextGet() findServiceInstanceByName:@"TestClassName"]);
 }
 
 //- (void)viewDidLayoutSubviews {
